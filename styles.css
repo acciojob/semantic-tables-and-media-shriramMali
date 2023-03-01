@@ -1,18 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-/* Your CSS Code here. */
-table,th,tr,td{
-	border:1px solid black;
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
 }
-.Data1{
-	width:250px;
-	height:200px;
+
+th {
+  background-color: #dddddd;
 }
-.Row1{
-	text-align:center;
+
+/* style for the list */
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
 }
-.tab1{
-	width:250px;
+
+/* style for the media elements */
+img {
+  display: block;
+  margin: auto;
 }
-.Data2{
-	height:100px
+
+video, audio {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
 }
